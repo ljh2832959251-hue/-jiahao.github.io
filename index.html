@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>佳皓 · Personal Space</title>
+<meta name="description" content="一个属于佳皓的私人角落。">
+<style>
+:root{--bg:#0b0c0f;--card:#121419;--text:#ececec;--muted:#8f949d;--line:#252830;--accent:#d9d9d9}
+*{box-sizing:border-box}html{scroll-behavior:smooth}
+body{margin:0;background:radial-gradient(circle at 80% 0%,#1a1c21 0,transparent 32%),var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif;line-height:1.7}
+a{color:inherit;text-decoration:none}.wrap{width:min(1080px,90%);margin:auto}
+nav{position:fixed;top:0;left:0;right:0;z-index:10;background:#0b0c0fcc;backdrop-filter:blur(14px);border-bottom:1px solid #ffffff08}
+.nav{height:64px;display:flex;align-items:center;justify-content:space-between}.logo{font-weight:700;letter-spacing:2px}
+.navlinks{display:flex;gap:24px;color:var(--muted);font-size:14px}.navlinks a:hover{color:white}
+.hero{min-height:92vh;display:flex;align-items:center;padding-top:64px}
+.kicker{color:#999;font-size:13px;letter-spacing:4px;text-transform:uppercase}.hero h1{font-size:clamp(48px,10vw,100px);line-height:1;margin:18px 0;letter-spacing:-5px}
+.hero p{max-width:620px;color:#a8acb4;font-size:18px;margin:0}.scroll{margin-top:55px;color:#666;font-size:12px;letter-spacing:3px}
+section{padding:105px 0;border-top:1px solid var(--line)}h2{font-size:30px;margin:0 0 35px}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.card{background:linear-gradient(145deg,#15171c,#101115);border:1px solid var(--line);border-radius:18px;padding:25px;min-height:170px;transition:.25s}.card:hover{transform:translateY(-4px);border-color:#444}
+.card small{color:#70757e}.card h3{margin:12px 0 8px;font-size:19px}.card p{color:#989da6;margin:0;font-size:14px}
+.about{display:grid;grid-template-columns:1fr 2fr;gap:70px}.quote{font-size:28px;line-height:1.5}.muted{color:var(--muted)}
+.timeline{border-left:1px solid #333;padding-left:25px}.item{margin-bottom:32px}.item b{font-size:15px}.item span{display:block;color:#777;font-size:12px;margin-bottom:5px}
+.tags{display:flex;flex-wrap:wrap;gap:9px}.tag{border:1px solid #30333a;border-radius:999px;padding:7px 13px;color:#aaa;font-size:13px}
+footer{padding:55px 0 80px;color:#666;font-size:13px;display:flex;justify-content:space-between}
+#top{position:fixed;right:20px;bottom:20px;width:42px;height:42px;border:1px solid #333;background:#111;color:#aaa;border-radius:50%;display:none;cursor:pointer}
+@media(max-width:720px){.navlinks{gap:12px;font-size:12px}.navlinks a:nth-child(2),.navlinks a:nth-child(3){display:none}.grid{grid-template-columns:1fr}.about{grid-template-columns:1fr;gap:30px}.hero h1{letter-spacing:-3px}.hero p{font-size:16px}section{padding:75px 0}footer{display:block}}
+</style>
+</head>
+<body>
+<nav><div class="wrap nav"><a class="logo" href="#">JH.</a><div class="navlinks"><a href="#about">关于</a><a href="#life">生活</a><a href="#notes">记录</a><a href="#contact">联系</a></div></div></nav>
+
+<main>
+<section class="hero"><div class="wrap">
+<div class="kicker">PERSONAL SPACE · 2026</div>
+<h1>佳皓。</h1>
+<p>这里没有什么宏大的主题。只是留下一些正在经历的事、喜欢的东西，以及偶尔想说却没有说出口的话。</p>
+<div class="scroll">SCROLL ↓</div>
+</div></section>
+
+<section id="about"><div class="wrap about">
+<div><div class="kicker">01 · ABOUT</div><h2>关于我</h2></div>
+<div>
+<div class="quote">“慢一点，也没关系。”</div>
+<p class="muted">一个正在读国贸的大二学生。对世界保持一点好奇，也习惯把很多事情想得很深。喜欢音乐、游戏、书和一些安静的夜晚。</p>
+<div class="tags"><span class="tag">国际经济与贸易</span><span class="tag">日本 / 日语</span><span class="tag">音乐</span><span class="tag">游戏</span><span class="tag">阅读</span><span class="tag">随想</span></div>
+</div></div></section>
+
+<section id="life"><div class="wrap">
+<div class="kicker">02 · LIFE</div><h2>最近在做什么</h2>
+<div class="grid">
+<article class="card"><small>MUSIC</small><h3>听歌</h3><p>把一些说不清楚的情绪，交给音乐替自己表达。</p></article>
+<article class="card"><small>GAME</small><h3>游戏</h3><p>偶尔回到熟悉的世界里，什么都不用想。</p></article>
+<article class="card"><small>LANGUAGE</small><h3>日语</h3><p>慢慢学，慢慢靠近那个一直有点向往的地方。</p></article>
+<article class="card"><small>READING</small><h3>阅读</h3><p>比起答案，有时候更在意一个人为什么会这样想。</p></article>
+<article class="card"><small>TRAVEL</small><h3>远方</h3><p>希望有一天，可以去一个完全陌生的地方生活一段时间。</p></article>
+<article class="card"><small>NOW</small><h3>此刻</h3><p>还没有想好未来是什么样，但正在往前走。</p></article>
+</div></div></section>
+
+<section id="notes"><div class="wrap">
+<div class="kicker">03 · NOTES</div><h2>一些记录</h2>
+<div class="timeline">
+<div class="item"><span>2026.10</span><b>生活本味</b><p class="muted">有些东西真正让人留恋的，不是它有多特别，而是它发生过。</p></div>
+<div class="item"><span>2026.09</span><b>关于人与人之间</b><p class="muted">有时候想重新认识一个人，有时候只是想回到曾经自然的关系。</p></div>
+<div class="item"><span>2026.09</span><b>慢慢改变生活</b><p class="muted">删掉一些东西之后，才发现原来生活可以有很多空白。</p></div>
+</div></div></section>
+
+<section id="contact"><div class="wrap">
+<div class="kicker">04 · CONTACT</div><h2>留下来聊聊</h2>
+<p class="muted">如果你刚好路过这里，欢迎留下一个链接或一句话。</p>
+<p style="margin-top:25px"><a href="mailto:your@email.com" style="border-bottom:1px solid #555;padding-bottom:4px">your@email.com ↗</a></p>
+</div></section>
+</main>
+
+<footer class="wrap"><span>© 2026 JH. All rights reserved.</span><span>Made for myself.</span></footer>
+<button id="top" aria-label="回到顶部">↑</button>
+<script>
+const topBtn=document.getElementById('top');
+addEventListener('scroll',()=>topBtn.style.display=scrollY>500?'block':'none');
+topBtn.onclick=()=>scrollTo({top:0,behavior:'smooth'});
+</script>
+</body>
+</html>
